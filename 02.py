@@ -19,4 +19,4 @@ for ce in k:
             if z % 3 and z % 5 and z > 5:
                 print(f'{z} tidak habis dibagi tiga atau lima.')
             else:
-                print(f'wakwaw {z}')
+                print("test", z)
