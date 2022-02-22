@@ -20,3 +20,11 @@ for ce in k:
                 print(f'{z} tidak habis dibagi tiga atau lima.')
             else:
                 print("test", z)
+                
+    
+    
+    
+cloud = [45, 55, 33]
+forest = [2, 4, 5]
+k = [x + z for x in cloud for z in forest]
+print(k)
