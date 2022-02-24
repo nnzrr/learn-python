@@ -31,3 +31,8 @@ print(k)
 
 test = [(x,y) for x in (1, 2, 3) for y in(4, 5, 6)]
 print(test)
+
+cloud = [45, 55, 33]
+forest = [(d,v) for d in (1, 2, 3) for v in(4, 5, 6)]
+k = [x + d - v for x in cloud for d, v in forest]
+print(k)
